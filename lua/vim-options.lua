@@ -13,3 +13,5 @@ vim.cmd("set shiftwidth=2")
 -- Set the mapleader variable to a space character
 vim.g.mapleader = " "
 
+-- show relative number
+vim.cmd("set relativenumber")
