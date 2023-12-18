@@ -15,3 +15,6 @@ vim.g.mapleader = " "
 
 -- show relative number
 vim.cmd("set relativenumber")
+
+-- set line highlight
+vim.cmd("set cursorline")

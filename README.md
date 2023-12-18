@@ -14,6 +14,8 @@ This is a Neovim configuration project written in Lua. It uses a modular structu
 
 - **Treesitter**: A parser generator tool and an incremental parsing library. It helps to create a better syntax highlighting and code understanding tools. The configuration for this plugin can be found in [`lua/plugins/treesitter.lua`](command:_github.copilot.openSymbolInFile?%5B%22lua%2Fplugins%2Ftreesitter.lua%22%2C%22lua%2Fplugins%2Ftreesitter.lua%22%5D "lua/plugins/treesitter.lua").
 
+- **Colorscheme**: A color scheme plugin for Neovim. It is based on the [catppuccin theme](https://github.com/catppuccin/nvim)
+
 ## Installation
 
 The project uses the `lazy.nvim` plugin manager. The installation is handled in the [`init.lua`](command:_github.copilot.openSymbolInFile?%5B%22init.lua%22%2C%22init.lua%22%5D "init.lua") file. The plugins are loaded lazily to improve startup time.

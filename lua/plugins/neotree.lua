@@ -17,8 +17,19 @@ return {
         vim.keymap.set('n', '<leader>bf', ':Neotree buffers reveal float<CR>',
                        {})
 
-        -- leader e to show neotree in right
+        -- leader e to show neotree in float
         vim.keymap.set('n', '<leader>e', ':Neotree toggle float <CR>')
+
+
+        require("neo-tree").setup({
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                    hide_dotfiles = false,
+                    hide_gitignored = false
+                }
+            }
+        })
 
     end
 }
