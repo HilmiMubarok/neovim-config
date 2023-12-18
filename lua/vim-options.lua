@@ -18,3 +18,7 @@ vim.cmd("set relativenumber")
 
 -- set line highlight
 vim.cmd("set cursorline")
+
+-- set True Color (24-bit) and italics with alacritty + tmux + vim (neovim)
+vim.o.termguicolors = true
+
