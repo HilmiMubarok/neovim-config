@@ -20,5 +20,10 @@ return {
         -- leader e to show neotree in float
         vim.keymap.set('n', '<leader>e', ':Neotree toggle float <CR>')
 
+        -- focus to neotree
+        vim.keymap.set('n', '<leader>o', ':Neotree focus <CR>')
+
     end
 }
+
+
